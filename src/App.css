@@ -28,11 +28,18 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*{
+  font-family: 'Open Sans';
+}
+
+
+.MuiButton-text {
+  text-transform: capitalize !important;
+  min-width: 140px;
+  align-self: flex-end;
+  font-weight: 900;
+}
+
+.MuiAvatar{
+  align-self: center;
 }
